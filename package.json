@@ -1,16 +1,16 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.0.2",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "CityServer",
+    "preductname": "City Server",
+    "version": "1.0.3",
+    "description": "Lanceur facile pour la ville qu'on construit ",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://launcher.selvania.fr",
+    "author": "Lun3z_",
+    "url": "http://90.103.92.202",
     "engines": {
         "node": "16.x.x"
     },
     "scripts": {
-        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "start": "env-cmd electron .",
         "build": "node build.js",
         "dev": "nodemon --exec npm start"
     },
@@ -24,13 +24,13 @@
         "node-fetch": "^2.6.7"
     },
     "devDependencies": {
-        "cross-env": "^7.0.3",
         "electron": "^19.0.7",
         "electron-builder": "^23.0.3",
+        "env-cmd": "^10.1.0",
         "nodemon": "^2.0.16"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Lun5z/City-Serveur.git"
     }
 }
